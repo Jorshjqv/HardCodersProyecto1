@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+          <title>Federación Costarricense de Taekwondo</title>
+          <link rel="icon" href="../../images/landingPageImg/ftcIcon.png">
+          <link rel="stylesheet" href="../../css/general/reset.css">
+          <link rel="stylesheet" href="../../css/home/landing_page_style.css">
+           <link rel="stylesheet" href="../../css/font/font.css">
+          <link rel='stylesheet' href='../../fullcalendar/fullcalendar.css' />
+          <link rel="stylesheet" href="../../css/general/modal.css">
+          <link rel="stylesheet" href="../../css/general/alerts.css">
+          <link rel="stylesheet" href="../../css/general/navbar.css">
+          <link rel="stylesheet" href="../../css/general/alignment.css">
+     </head>
+     <body>     <!-- Navigation Section -->
+       <!-- Navigation Section -->
+       <header class="navbar navbar-fixed-top custom-navbar">
+            <nav class="container">
+                <!-- navbar header -->
+                 <div id="navbar-title" class="navbar-header navSize">
+                   <div class="imgLogo logo-style"><img src="../../images/landingPageImg/ftcIcon.png" height="32" width="32"></div>
+                   <div class="alingNav">
+                   <strong><h3 id="lili" class="color-white">Federación Costarricense de Taekwondo</h3></strong>
+                   </div>
+                 </div>
+                 <div>
+                      <ul class="nav navbar-nav navbar-right " id="btnNav">
+                           <li><a href="../home/index.php" >Inicio</a></li>
+                           <li><a href="../home/documents.php">Documentos</a></li>
+                           <li><a href="../home/contact.php">Contacto</a></li>
+                           <li><a href="./events_calendar.html">Eventos</a></li>
+                           <li><a href="../login/login.php">Iniciar sesión</a></li>
+                      </ul>
+                 </div>
+            </nav>
+       </header>
+          <div class="calendar-Container">
+              <div id="calendar">
+
+               </div>
+          </div>
+               <!-- The Modal -->
+          <div id="sellEvent" class="modal" data-role="page">
+               <div class="modal-content">
+                    <div id="VariableContent">
+                    <div class="modal-header">
+                         <h1>Evento</h1>
+                         <span class="close">&times;</span>
+                    </div>
+                    <div class="contet">
+                         <p>Some text in the Modal..</p>
+                    </div>
+                    <div id="map">
+
+                    </div>
+                    </div>
+                    <div class="modal-footer">
+                    <input type="button" value = "Comprar" id="btnComprar" class="btn btnImportant">
+                    <input type="button" value = "Cancelar" id="btnCancelar" class="btn btnClose">
+                    <output id="txtLatitud"></output>
+                    <output id="txtLongitud"></output>
+               </div>
+               </div>
+          </div>
+          <script src="../../js/events/EventsCalendar/maps.js"></script>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+          <script src="../../js/events/EventLogicBusinnes/EventBussinessLogic.js"></script>
+          <script src="https://maps.google.com/maps/api/js?key=AIzaSyC_rqeRLNBe5_svoUZq-kyBy_FEJrYJoyU"></script>
+          <script src='../../fullcalendar/lib/jquery.min.js'></script>
+          <script src='../../fullcalendar/lib/moment.min.js'></script>
+          <script src='../../fullcalendar/fullcalendar.js'></script>
+          <script src='../../fullcalendar/locale/es.js'></script>
+          <script src='../../js/util/messages.js'></script>
+          <script src="../../js/events/EventsCalendar/EventsCalendar.js"></script>
+     </body>
+</html>

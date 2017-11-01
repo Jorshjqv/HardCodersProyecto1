@@ -1,0 +1,66 @@
+/*Autor Jose Solano*/
+
+/*
+Generic Styling, for Desktops/Laptops
+*/
+table {
+  width: 100%;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-size: 17px;
+  border-collapse:separate;
+  border-spacing:0 15px;
+}
+/* Zebra striping */
+tr {
+  background: #eee;
+}
+
+th {
+  background: #333;
+  color: white;
+  font-weight: bold;
+}
+td, th {
+  padding: 6px;
+  border: none;
+  text-align: left;
+}
+
+.img-size{
+	width: 55%;
+}
+/*Styling for event reports tables*/
+/*Begin*/
+.event_report_container{
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+.event_report_container table{
+  width: 438px;
+  border-collapse: separate;
+  color: #2a2a2a;
+  background: #fff;;
+}
+.title_category{
+  position: relative;
+  top: 0.8em;
+}
+.eventReport thead td{
+  background-color: #333;
+  text-align: center;
+  color: #ffffff;
+}
+.eventReport tbody td{
+  background-color: #eee;
+  color:  #333;
+}
+/*Danilo*/
+
+/*End*/
+
+
+

@@ -1,0 +1,420 @@
+/*Autor: Jose Solano*/
+
+/*Form Header*/
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance:textfield;
+}
+input:focus, button:focus {
+    outline: none;
+}
+.forms{
+	margin: 2%;
+	width: 96%;
+}
+.form-header{
+	text-align: center;
+	border-bottom: solid 1px #ccc;
+	overflow: auto;
+	margin-bottom: 1%;
+}
+.form-config{
+	text-align: left;
+	border-bottom: solid 1px #ccc;
+	overflow: auto;
+	padding-left: 2%;
+	margin-bottom: 1%;
+}
+#searchBar{
+	background-image: url(../../images/general/searchicon.png);
+	background-repeat: no-repeat;
+	background-position: 5px 2px;
+	float: right;
+    margin-top: -4%;
+    padding: 3px 1px 2px 30px;
+   	border: 1px solid #ddd;
+    border-radius: 8px;
+}
+/*Form body*/
+
+.form-body{
+	overflow: auto;
+	font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 17px;
+    margin-bottom: 2%;
+ 	border-bottom: solid 1px #ccc;
+}
+.column-left{
+	width: 50%;
+	float: left;
+}
+.column-right{
+	width: 50%;
+	float: right;
+}
+#form label{
+	width: 30%;
+	display: block;
+    float: left;
+}
+#form input{
+	border: none;
+	border-bottom: solid 1px #4e4e4e;
+	width: 60%;
+}
+#form input:focus{
+	border-bottom: solid 3px #010138;
+}
+.group{
+	margin: 10% 2%;
+}
+select{
+	width: 60%;
+	border: none;
+	border-bottom: solid 1px #4e4e4e;
+	width: 60%;
+}
+
+.form-footer{
+	text-align: center;
+}
+
+#form .btn{
+	border: none;
+	cursor: pointer;
+	width: 141px;
+	padding: 1%;
+	border-radius: 15px;
+	font-size: 15px;
+}
+.btnImportant{
+	color: #ffffff;
+	background-color: #3e3ee0;
+}
+
+.btnEventListHeader{
+	border: none;
+	cursor: pointer;
+	width: 141px;
+	padding: 0.5%;
+	border-radius: 15px;
+	font-size: 15px;
+	color: #ffffff;
+	background-color: #333;
+	margin-left: 3px;
+}
+
+.btnImportant:hover {
+	background-color: #6f6fff;
+}
+
+#form .errorInput{
+	border-bottom: solid 2px red;
+}
+
+#form .allowInput{
+	border-bottom: solid 2px green;
+}
+
+.forms .btnList{
+	border: none;
+    cursor: pointer;
+    padding: 2%;
+    border-radius: 5px;
+    font-size: 17px;
+    margin: 2%;
+}
+#form .overflow{
+	overflow: auto;
+}
+
+.min-float{
+	width: 17%;
+	float: left;
+}
+#form .addbtn{
+	width: 9%;
+	color: #ffffff;
+	background-color: #3e3ee0;
+	border-radius: 15px;
+}
+#form .select-size{
+	width: 40%;
+
+}
+#form .bothslect{
+	width: 8%;
+	float: right;
+    margin-right: 21%;
+    margin-top: -13%;
+		color: #ffffff;
+	background-color: #3e3ee0;
+	border-radius: 15px;
+}
+
+.cotainar-selection{
+    margin: 2%;
+    border: solid;
+    height: 150px;
+    width: 70%;
+}
+.min-margin{
+	margin-top: -9%;
+}
+.cotainar-selection p{
+	float: left;
+	margin: 2%;
+
+}
+.inRow{
+	overflow: auto;
+}
+
+.inRow button {
+	margin-top: 1%;
+}
+#form .exten{
+	width: 78%;
+}
+#form .checkbox{
+    width: 58%;
+    display: flex;
+}
+.exhibicion{
+	display: none;
+}
+.showInvite{
+	display: block;
+}
+#form .invitado{
+	width: 10%;
+}
+#profilStudent{
+
+    position:  relative;
+    left: 2em;
+    top: 4em;
+}
+.studentProfilClass{
+
+    background-color: #ffffff;
+
+
+}
+#perfilStudent{
+    width: 75%;
+    position: relative;
+    left: 12.5em;
+
+
+}
+
+#btnDescargarCVS{
+	width: 230px;
+	position: relative;;
+	left: 100px;
+}
+#btnReporteEstadistica,#btnReporteCosto{
+	width: 200px;
+	position: relative;;
+	left: 380px;
+	margin-right: 40px;
+
+}
+.contaner_password{
+	width: 50%;
+	position: relative;
+	margin: 0 auto;
+}
+#schedule_container{
+
+  display: flex;
+  width: 50%;
+  height: 15%;
+  justify-content:space-around;
+  position: relative;
+  left: 9em;
+  bottom: 0.5em;
+
+}
+.radio-horizontal{
+	display: flex;
+}
+
+#form .min-radio{
+	width: 13%;
+}
+.forms .lenghtImage{
+	width: 100%;
+}
+
+.forms .td-aligment{
+	width: 18%;
+}
+.lengtSelect{
+width: 36%;
+margin-right: 2%;
+}
+#form .btn-levelUp{
+ background-image: url(../../images/general/UpArrow.png);
+ background-repeat: no-repeat;
+ background-position: 6px 9px;
+ margin-right: 8%;
+ padding-left: 23px;
+}
+
+
+#form .column-expand{
+	width: 85%;
+}
+.container{
+	width: 100%;
+	overflow: auto;
+}
+
+.select-left{
+	float: left;
+	margin-right: -20%;
+	width: 50%;
+}
+.select-center{
+	float: left;
+	margin: 5% 1%;
+	width: 18%;
+}
+
+.select-right{
+	float: left;
+	width: 50%;
+}
+
+#form .add{
+  background-image: url(../../images/general/UpRight.png);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  height: 30px;
+  background-color: #ffffff;
+}
+
+#form .remove{
+  background-image: url(../../images/general/UpLeft.png);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  height: 30px;
+  background-color: #ffffff;
+}
+
+#form .btnAdd{
+  height: 30px;
+  width: 38%;
+  margin: 5%;
+  color: #ffffff;
+  background: #7fb5da;
+}
+
+
+#containerCategory{
+	margin: 2% 8%;
+}
+
+form .container{
+	margin: 3px 5%;
+}
+
+form .centerCer{
+	margin: 0 9%;
+}
+#container_days{
+	 display: flex;
+ 	 width: 50%;
+  	 height: 15%;
+  	 justify-content:space-around;
+  	 position: relative;
+  	 bottom: 0.5em;
+  	 right: 0.8em;
+
+}
+
+.conteHours{
+	display: flex;
+	position: relative;
+	bottom: 0.8em;
+}
+#contStart{
+	width: 200px;
+	position: relative;
+	left: 1em;
+
+
+}
+#contEndS{
+	width: 200px;
+	position: relative;
+	left: 4em;
+
+
+}
+#contEndS label{
+	width:  180px;
+	position: relative;
+
+
+}
+#contEndS input{
+	width: 87px;
+    position: relative;
+    left: 9.5em;
+    bottom: 1.8em;
+
+
+}
+#contStart label{
+	width: 150px;
+}
+#contStart input{
+	width: 97px;
+	position: relative;
+	left: 9em;
+	bottom: 1.8em;
+
+}
+/*estilos danilo*/
+
+form .form-content{
+	font-family: 'Open Sans';
+    font-style: normal;
+    margin-bottom: 2%;
+    border-bottom: solid 1px #ccc;
+}
+
+#form .flexi{
+	display: flex;
+}
+
+#form .quit{
+	color: red;
+	text-decoration: line-through;
+}
+
+#form .miss{
+	color: red;
+	font-weight: bold;
+}
+
+.inputImgHdn{
+  width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+#btnModificarLogo  label{
+  display: inline-block
+}

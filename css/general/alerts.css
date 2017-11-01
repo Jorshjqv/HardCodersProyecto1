@@ -1,0 +1,25 @@
+/*Erros*/
+#alert{
+    border-radius: 25px;
+    height: 50px;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px 0;
+    font-size: 20px;
+}
+.normal{
+  display: none;
+}
+.error{
+  display: block;
+  background: #ff0707;
+}
+.success{
+  display: block;
+  background: #009c38;
+}
+
+.errorInput{
+  border-bottom: 2px solid #ff0707 !important;
+}
+#

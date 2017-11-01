@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Federación Costarricense de Taekwondo</title>
+        <link rel="icon" href="../../images/landingPageImg/ftcIcon.png">
+        <link rel="stylesheet" href="../../css/general/reset.css">
+		    <link rel="stylesheet" href="../../css/font/font.css">
+        <link rel="stylesheet" href="../../css/general/general.css">
+        <link rel="stylesheet" href="../../css/general/menus.css">
+        <link rel="stylesheet" href="../../css/general/forms.css">
+        <link rel="stylesheet" href="../../css/general/tables.css">
+        <link rel="stylesheet" href="../../css/general/alerts.css">
+        <link rel="stylesheet" href="../../css/general/navbar.css">
+        <link rel="stylesheet" href="../../css/general/alignment.css">
+        <link rel="stylesheet" href="../../css/home/landing_page.css">
+     </head>
+     <body>
+          <!-- Navigation Section -->
+          <header class="navbar custom-navbar">
+               <nav class="container">
+                   <!-- navbar header -->
+                    <div id="navbar-title" class="navbar-header navSize">
+                         <div class="imgLogo logo-style"><img src="../../images/landingPageImg/ftcIcon.png"></div>
+                         <div class="alingNav">
+                         <strong><h3 class="color-white">Federación Costarricense de Taekwondo</h3></strong>
+                         </div>
+                    </div>
+                    <div>
+                         <div class="imgLogo logo-style userImg"><img src="../../images/landingPageImg/ftcIcon.png"></div>
+                         <ul class="nav navbar-nav navbar-right " id="btnNav">
+                              <div class="username">
+                                   <li><a href="#">Nombre del Usuario</a></li>
+                              </div>
+                         </ul>
+                    </div>
+               </nav>
+            </header>
+          <div id="allInfo">
+          <div class="navigation">
+                <ul class="mainmenu">
+                     <li><a href="#"><i class="plus flaticon-add-button-inside-black-circle"></i>Usuarios</a>
+                         <ul class="submenu">
+                               <li><a href=""> Crear usuarios</a></li>
+                               <li><a href="">Ver usuarios</a></li>
+                         </ul>
+                     </li>
+                     <li><a href="#"><i class="plus flaticon-add-button-inside-black-circle"></i>Eventos</a>
+                         <ul class="submenu">
+                               <li><a href="createEvent.html">Crear eventos</a></li>
+                               <li><a href="eventsList.html">Ver eventos</a></li>
+                         </ul>
+                     </li>
+                     <li><a href="#"><i class="plus flaticon-add-button-inside-black-circle"></i>Organizaciones</a>
+                         <ul class="submenu">
+                               <li><a href="">Crear organizaciones</a></li>
+                               <li><a href="">Ver organizaciones</a></li>
+                         </ul>
+                     </li>
+                     <li><a href="#"><i class="plus flaticon-add-button-inside-black-circle"></i>Patrocinadores</a>
+                         <ul class="submenu">
+                               <li><a href="">Crear patrocinadores</a></li>
+                               <li><a href="">Ver  patrocinadores</a></li>
+                         </ul>
+                     </li>
+                     <li><a href="#"><i class="plus flaticon-add-button-inside-black-circle"></i>Academias</a>
+                         <ul class="submenu">
+                               <li><a href="../Academias/academias.html">Crear academias</a></li>
+                               <li><a href="../Academias/listarAcademias.html">Ver academias</a></li>
+                         </ul>
+                     </li>
+                     <li><a href="#"><i class="plus flaticon-add-button-inside-black-circle"></i>Categorías</a>
+                         <ul class="submenu">
+                               <li><a href="">Crear categorías</a></li>
+                               <li><a href="">Ver categorías</a></li>
+                         </ul>
+                     </li>
+                     <li><a href="#"><i class="plus flaticon-add-button-inside-black-circle"></i>Reportes</a>
+                         <ul class="submenu">
+                               <li><a href="">Ver Información de eventos</a></li>
+                               <li><a href="">Ver Resultados de eventos</a></li>
+                               <li><a href="">Ver Ganacias de eventos</a></li>
+                               <li><a href="">Ver hisorial usario</a></li>
+                         </ul>
+                     </li>
+                 </ul>
+          </div>
+          <div class="content-info">
+               <div class="forms" id="form">
+                  <div class="form-header">
+                    <h2>Agregar alumno</h2>
+                  </div>
+                  <div id="alert" class="normal">
+
+                  </div>
+                  <form>
+                    <div class="form-body">
+                        <div class="column-left">
+                          <div class="group">
+                            <label for="numIdentificationUser">Identificación</label>
+			    <input type="number" id="numIdentificationUser" required><br>
+                          </div>
+                          <div class="group">
+                            <label for="txtNameUser">Nombre</label>
+        <input type="text" id="txtNameUser" required><br>
+                          </div>
+                          <div class="group">
+                            <label for="txtSecondNameUser">Apellido</label>
+          <input type="text" id="txtSecondNameUser" required><br>
+                          </div>
+                          <div class="group">
+                            <fieldset>
+                                <legend>Género</legend>
+                                <input value="Masculino" type="radio" name="genderUser" id="checkMaleUser">Masculino
+                                <input value="Femenino" type="radio" name="genderUser" id="checkFemaleUser">Femenino
+                            </fieldset><br>
+                          </div>
+                          <div class="group">
+                            <label for="numTelUser">Teléfono</label>
+          <input type=number id="numTelUser" required><br>
+                          </div>
+                          <div id="studentFormUserLeft">
+                            <div class="group">
+                              <label for="numWeightUser">Peso</label>
+            <input type="number" id="numWeightUser" >
+                              <label id="numKiloUser">Kg</label>
+                            </div>
+                            <div class="group">
+                              <label for="numHeightUser">Altura</label>
+   			    <input type="number" id="numHeightUser" >
+                              <label id="numMeterUser">m</label><br>
+                            </div>
+                            <div class="group">
+                              <label for="selectBeltCategoryUser">Categorías por cinturón</label>
+                              <select id="selectBeltCategoryUser" >
+                                <option>Escoger una opción</option>
+                              </select><br>
+                            </div>
+                            <div class="group">
+                              <label for="selectAgeCategoryUser">Categorías por edad</label>
+                              <select id="selectAgeCategoryUser" >
+                                <option>Escoger una opción</option>
+                              </select><br>
+                            </div>
+                            <div class="group">
+                              <label for="selectWeightCategoryUser">Categorías por peso</label>
+                              <select id="selectWeightCategoryUser">
+                                <option>Escoger una opción</option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="column-right">
+                          <div class="group">
+                            <fieldset>
+                                <legend>Tipo de Indetificación</legend>
+
+                                    <input type="radio" id="checkIdUser" name="userIdentification" value="cedula">Cédula
+                                    <input type="radio" id="checkPassportUser" name="userIdentification" value="pasaporte">Pasaporte
+                                    <input type="radio" id="checkResidenceUser" name="userIdentification" value="residencia">Residencia
+                            </fieldset><br>
+                          </div>
+                           <div class="group">
+                             <label for="txtEmailUser">Correo electrónico</label>
+            <input type="email" id="txtEmailUser" required><br>
+                          </div>
+                           <div class="group">
+                             <label for="dateBirthUser">Fecha de nacimiento</label>
+            <input type="date" id="dateBirthUser" required><br>
+                          </div>
+                          <div class="group">
+                            <label for="selectProfUser">Profesor</label>
+                            <select id="selectProfUser" >
+                              <option>Escoger una opción</option>
+                            </select>
+                          </div>
+                          <div class="group">
+                            <input type="file" id="imageUser" accept="image/*">
+                            <input type="submit" id="sendImageUser" class="btnList btnImportant">
+                         </div>
+                         <div id="profFormUser">
+                           <div class="group">
+                             <label for="selectAcademyUser">Academia</label>
+                             <select id="selectAcademyUser">
+                               <option>Escoger una opción</option>
+                             </select><br>
+                           </div>
+                         </div>
+                         <div id="studentFormUserRight">
+                           <div class="group">
+                             <label for="numExhibitionsUser">Exhibiciones Participadas</label>
+           <input type="number" id="numExhibitionsUser">
+                           </div>
+                           <div class="group">
+                             <label for="numTournamentWonUser">Torneos Ganados</label>
+           <input type="number" id="numTournamentWonUser">
+                           </div>
+                           <div class="group">
+                             <label for="numTournamentParticipatedUser">Torneos Participados</label>
+           <input type="number" id="numTournamentParticipatedUser">
+                           </div>
+                         </div>
+                        </div>
+                    </div>
+                    <div class="form-footer">
+						<input type="button" value="Agregar" class="btn btnImportant" id="buttonSaveStudent">
+                    </div>
+                  </form>
+               </div>
+          </div>
+          </div>
+          <div class="clearfix"></div>
+          <script src="../../js/util/messages.js"></script>
+          <script src="../../js/students/students_business_logic.js"></script>
+          <script src="../../js/students/students_interface_logic.js"></script>
+	</body>
+</html>

@@ -1,0 +1,133 @@
+/*Autor: Jose Solano 2017*/
+
+/*Horizontal Menu*/
+.userImg{
+	 float: right!important;
+		margin-right: 10px;
+}
+.username {
+	margin-right:50px;
+	width: 150px;
+}
+.containerUserImage{
+  width: 100px;
+ float: right;
+}
+.containerUserImage img{
+  width: 100%;
+  border-radius: 50%;
+  margin-top: 4px;
+
+}
+
+/*Lateral Menu*/
+.navigation {
+	float: left;
+	width: 20%;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: large;
+	background: #610202;
+	min-height:100%;
+}
+
+.mainmenu li {
+	margin-top: 10px;
+}
+
+.submenu li {
+	margin: 0 !important;
+}
+
+.mainmenu li a {
+		padding-left: 30px;
+}
+
+.mainmenu, .submenu {
+  list-style: none;
+  padding: 0;
+
+  margin: 0;
+}
+
+.mainmenu a {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  font-weight: 500;
+}
+
+.mainmenu li:hover .submenu {
+  display: block;
+  max-height: 200px;
+}
+
+.Show-submenu {
+  display: block;
+  max-height: 200px;
+}
+.submenu a, .Show-submenu a {
+  background-color: #eee;
+  padding-left: 70px;
+	color:black;
+}
+
+
+.submenu a:hover , .Show-submenu a:hover{
+  background-color: #333;
+	color:white;
+}
+
+.submenu {
+  overflow: hidden;
+  max-height: 0;
+  -webkit-transition: all 0.5s ease-out;
+}
+
+@media (max-width:1200px) {
+.container {
+    width: 1000px;
+}
+#navbar-title {
+    margin-left: 3%;
+}
+.userImg{
+	margin-left: 39%;
+}
+}
+
+
+/*Container*/
+.content-info{
+	float: right;
+	width: 80%;
+}
+.clearfix{
+	clear: both;
+}
+#allInfo{
+	height:calc(100% - 70px);
+}
+/*Footer*/
+footer {
+    padding: inherit;
+    border-top: solid 1px #CCC;
+ }
+ .plus{
+ 	margin-right: 10px;
+  font-size: 22px;
+ }
+
+ /*Options*/
+ .organization{
+ 	float: left;
+ 	width: 50%;
+ }
+ .user{
+ 	float: right;
+ 	width: 50%
+ }
+
+ .extend{
+  padding-bottom: 120%;
+ }

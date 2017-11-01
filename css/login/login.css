@@ -1,0 +1,67 @@
+html,body {
+	width: auto;
+	height: auto;
+}
+
+body {
+	background: url(../../images/login/background2.jpg) no-repeat center center fixed;
+	background-size: cover;
+	color:white;
+}
+
+body input[type="text"] {
+
+	background-color: rgba(0,0,0,0);
+	color: white;
+	border-bottom: solid 1px #ccc !important;
+}
+body input[type="password"] {
+	background-color: rgba(0,0,0,0);
+	color: white;
+	border-bottom: solid 1px #ccc !important;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: white;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+}
+::-moz-placeholder {
+  color: white;
+}
+:-ms-input-placeholder {
+  color: white;
+}
+:-moz-placeholder {
+  color: white;
+}
+
+.margin30 {
+	margin: 30px;
+}
+
+.marginTopCenter{
+	margin-top: 15%;
+}
+
+.inputsAlignCenter {
+	text-align:center;
+	text-decoration-color: white;
+}
+
+.noBorder {
+	border:none;
+}
+.containerSession{
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	background: rgba(0,0,0,0.5); 
+}
+

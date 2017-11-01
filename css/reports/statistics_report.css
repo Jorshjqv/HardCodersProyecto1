@@ -1,0 +1,51 @@
+
+
+#statisticsReport {
+  float: right;
+  border: 1px solid black;
+  width: 50%;
+  position: relative;
+  bottom: 270px;
+}
+
+.participants{
+  width:100%;
+}
+
+.participants label{
+  float: left;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.participants p{
+  position: relative;
+  left: 30px;
+  font-size: 20px;
+}
+
+.place label {
+  float:left;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.place p{
+  position: relative;
+  left: 30px;
+  font-size: 20px;
+}
+#btnDownloadContainer {
+  padding: 30px;
+  margin-left: 60px;
+  float: left;
+}
+
+#btnsContainer {
+  padding: 30px;
+  float: right;
+}
+
+#btnsContainer input{
+  margin-right: 15px;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Federación Costarricense de Taekwondo</title>
+		<link rel="stylesheet" href="../../css/general/reset.css">
+        <link rel="icon" href="../../images/landingPageImg/ftcIcon.png">
+		    <link rel="stylesheet" href="../../css/font/font.css">
+        <link rel="stylesheet" href="../../css/general/general.css">
+        <link rel="stylesheet" href="../../css/general/menus.css">
+        <link rel="stylesheet" href="../../css/general/forms.css">
+        <link rel="stylesheet" href="../../css/general/tables.css">
+        <link rel="stylesheet" href="../../css/general/alerts.css">
+        <link rel="stylesheet" href="../../css/general/navbar.css">
+        <link rel="stylesheet" href="../../css/general/alignment.css">
+        <link rel="stylesheet" href="../../css/home/landing_page.css">
+        <link rel="stylesheet" href="../../css/general/modal.css">
+
+     </head>
+     <body>
+          <!-- Navigation Section -->
+          <header class="navbar custom-navbar">
+               <nav class="container">
+                   <!-- navbar header -->
+                    <div id="navbar-title" class="navbar-header navSize">
+                         <div class="imgLogo logo-style"><img src="../../images/landingPageImg/ftcIcon.png"></div>
+                         <div class="alingNav">
+                         <strong><h3 class="color-white">Federación Costarricense de Taekwondo</h3></strong>
+                         </div>
+                    </div>
+                    <div>
+                         <div class="imgLogo logo-style userImg">
+							<img src="../../images/landingPageImg/ftcIcon.png">
+						 </div>
+                         <ul class="nav navbar-nav navbar-right " id="btnNav">
+                              <div class="username">
+                                   <li><a href="#">Nombre del Usuario</a></li>
+                              </div>
+                         </ul>
+                    </div>
+               </nav>
+            </header>
+          <div id="allInfo">
+          <div class="navigation">
+                <ul class="mainmenu">
+                     <li><a href="#"><i class="plus flaticon-add-button-inside-black-circle"></i>Usuarios</a>
+                         <ul class="submenu">
+                               <li><a href=""> Crear usuarios</a></li>
+                               <li><a href="">Ver usuarios</a></li>
+                         </ul>
+                     </li>
+                     <li><a href="#"><i class="plus flaticon-add-button-inside-black-circle"></i>Eventos</a>
+                         <ul class="submenu">
+                               <li><a href="createEvent.html">Crear eventos</a></li>
+                               <li><a href="eventsList.html">Ver eventos</a></li>
+                         </ul>
+                     </li>
+                     <li><a href="#"><i class="plus flaticon-add-button-inside-black-circle"></i>Organizaciones</a>
+                         <ul class="submenu">
+                               <li><a href="">Crear organizaciones</a></li>
+                               <li><a href="">Ver organizaciones</a></li>
+                         </ul>
+                     </li>
+                     <li><a href="#"><i class="plus flaticon-add-button-inside-black-circle"></i>Patrocinadores</a>
+                         <ul class="submenu">
+                               <li><a href="">Crear patrocinadores</a></li>
+                               <li><a href="">Ver  patrocinadores</a></li>
+                         </ul>
+                     </li>
+                     <li><a href="#"><i class="plus flaticon-add-button-inside-black-circle"></i>Academias</a>
+                         <ul class="submenu">
+                               <li><a href="../Academias/listarAcademias.html">Crear academias</a></li>
+                               <li><a href="../Academias/academias.html">Ver academias</a></li>
+                         </ul>
+                     </li>
+                     <li><a href="#"><i class="plus flaticon-add-button-inside-black-circle"></i>Categorías</a>
+                         <ul class="submenu">
+                               <li><a href="">Crear categorías</a></li>
+                               <li><a href="">Ver categorías</a></li>
+                         </ul>
+                     </li>
+                     <li><a href="#"><i class="plus flaticon-add-button-inside-black-circle"></i>Reportes</a>
+                         <ul class="submenu">
+                               <li><a href="">Ver Información de eventos</a></li>
+                               <li><a href="">Ver Resultados de eventos</a></li>
+                               <li><a href="">Ver Ganacias de eventos</a></li>
+                               <li><a href="">Ver hisorial usario</a></li>
+                         </ul>
+                     </li>
+                 </ul>
+          </div>
+          <div class="content-info">
+               <div class="forms">
+                  <div class="form-header">
+                    <h2>Alumnos</h2>
+                    <input type="text" id="searchBar" onkeyup="searchElements()" placeholder="Buscar evento...">
+                  </div>
+                    <table id="tableUsersList">
+                      <thead>
+                          <tr>
+
+                              <th>Nombre</th>
+                              <th></th>
+                              <th>Género</th>
+                              <th>Correo</th>
+                              <th></th>
+                              <th></th>
+                          </tr>
+                      </thead>
+
+                      <tbody>
+
+                      </tbody>
+
+                    </table>
+               </div>
+          </div>
+          </div>
+          <div id="sellEvent" class="modal">
+               <div class="modal-content">
+                    <div id="VariableContent">
+                    <div class="modal-header">
+                         <h1>Confirmación</h1>
+                         <span class="close">&times;</span>
+                    </div>
+                    <div class="contet">
+                         <p>¿Seguro que desea eliminar este elemento?</p>
+                    </div>
+                    </div>
+                    <div class="modal-footer">
+                    <input type="button" value = "Aceptar" id="btnOK" class="btn btnImportant btnOnDelete">
+                    <input type="button" value = "Cancelar" id="btnCancelar" class="btn btnClose btnOnDelete">
+               </div>
+               </div>
+          </div>
+          <div class="clearfix"></div>
+          <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+          <script src="../../js/util/search.js"></script>
+          <script src="../../js/util/modal.js"></script>
+          <script src="../../js/students/studetns_business_logic.js"></script>
+          <script src="../../js/students/students_interface_logic.js"></script>
+	</body>
+</html>
